@@ -28,10 +28,6 @@ print("")
 
 
 
-#subprocess.call("ifconfig eth0 down", shell=True)
-#subprocess.call("ifconfig eth0 hw ether 00:11:22:33:44:77", shell=True)
-#subprocess.call("ifconfig eth0 up", shell=True)
-
 def mac_gen():
 
     new_mac= "00:" + str(random.randint(10,99)) + ":" + str(random.randint(10,99)) + ":" + str(random.randint(10,99)) + ":" + str(random.randint(10,99))
