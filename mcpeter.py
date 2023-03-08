@@ -1,7 +1,6 @@
 import subprocess
 import random
 import time
-import re
 from tqdm import tqdm
 
 
